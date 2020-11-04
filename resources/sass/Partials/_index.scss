@@ -1,0 +1,11 @@
+.index {
+    &__text {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &__info {
+        margin: 0 0 10px 21px;
+        width: 60px;
+    }
+}
