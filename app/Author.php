@@ -11,4 +11,8 @@ class Author extends Model
         // Creo nel model la relazione inserendo il model da relazionare
         return $this->hasOne('App\AuthorInfo');
     }
+    public function comics()
+    {
+        return $this->hasMany('App\Comic');
+    }
 }
